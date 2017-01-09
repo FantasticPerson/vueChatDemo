@@ -1,12 +1,13 @@
 <template>
   <div class="test2">
-    <h2>look here ......</h2>
+    <h2>说:{{say}}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'test2'
+  name: 'test2',
+  props: ['say']
 }
 </script>
 

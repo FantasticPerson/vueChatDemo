@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <hello></hello>
-    <test2></test2>
+    <test2 say="你是猪"></test2>
     <router-view></router-view>
   </div>
 </template>
@@ -28,5 +28,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+div {
+  height: '300px';
+  background-color: 'red'
 }
 </style>
